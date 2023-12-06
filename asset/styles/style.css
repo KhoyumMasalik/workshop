@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+:root {
+    --hijau: rgb(37, 94, 37);
+    --hitam: #000;
+    --putih: #fff;
+    --bg2: rgb(218, 198, 198);
+    --abu: #666;
+}
+
+body {
+    background: var(--hijau);
+}
+
+/* header */
+.header {
+    background: var(--putih);
+    margin: 0 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 2rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-name {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* about */
+.about {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text h1 {
+    font-size: 5rem;
+    color: var(--putih);
+}
+
+.about-btn {
+    padding: 2rem 0;
+}
+
+.about-btn button {
+    padding: 7px 25px;
+    border-radius: 25px;
+    box-shadow: 3px 2px 0 var(--abu);
+}
+
+.about-poto1 {
+    margin-left: 2rem;
+}
+
+.about-poto1 img {
+    width: 15%;
+}
+
+.about-poto {
+    width: 100%;
+    display: inline-flex;
+    justify-content: end;
+    height: 100%;
+    margin-top: 10rem;
+}
+
+.about-poto img {
+    width: 70%;
+}
+
+/* services */
+.services {
+    background: var(--putih);
+    padding: 3rem;
+}
+
+.services-title h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.services-title h2 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.services-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.services-menu-1 {
+    width: 350px;
+    align-items: center;
+    display: flex;
+}
+
+.services-menu-poto img {
+    width: 50%;
+}
+
+.services-menu-title h1 {
+    font-size: 1.5rem;
+}
+
+.services-menu-title h2 {
+    font-size: 1rem;
+}
+
+/* menu */
+.menu {
+    background: var(--bg2);
+    padding: 3rem;
+}
+
+.menu-name h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.menuna {
+    padding: 0 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-1 {
+    width: 300px;
+    background: var(--hijau);
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+.menu1-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--putih);
+    border-radius: 20px 20px 0 0px;
+}
+
+.menu-1 img {
+    width: 40%;
+}
+
+.menu1-name {
+    padding: .5rem 0 0 1rem;
+    color: var(--putih);
+}
+
+.menu1-name h1,
+h2 {
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+/* aside */
+.aside {
+    background: var(--putih);
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.aside-poto {
+    display: flex;
+    justify-content: center;
+}
+
+.aside-poto img {
+    width: 60%;
+}
+
+.aside-text {
+    color: #000;
+}
+
+.aside-text h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.aside-text p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.aside-btn button {
+    padding: .5rem 3rem;
+    border-radius: 25px;
+    box-shadow: 3px 2px 0 var(--abu);
+    border: 3px solid #000;
+}
+
+.aside-btn button a {
+    font-size: 1.5rem;
+}
+
+/* footer */
+footer {
+    background: black;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    width: 100%;
+    gap: 5rem;
+}
+
+.footer-home,
+.footer-help,
+.footer-social {
+    width: 25%;
+}
+
+.footer-name {
+    width: 35%;
+}
+
+
+.footer-name h1 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.footer-home h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-home h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.footer-name p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.footer-help h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-help h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.footer-social h1 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-social a {
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.footer-end h1 {
+    font-size: 1rem;
+}
