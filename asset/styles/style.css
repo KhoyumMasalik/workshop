@@ -13,6 +13,14 @@ li {
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+span{
+    color: var(--hijau);
+}
+
 :root {
     --hijau: rgb(37, 94, 37);
     --hitam: #000;
@@ -67,13 +75,14 @@ nav ul li a {
 }
 
 .about-btn {
-    padding: 2rem 0;
+    padding: 2rem 0 3.3rem;
 }
 
 .about-btn button {
-    padding: 7px 25px;
+    padding: 10px 45px;
     border-radius: 25px;
     box-shadow: 3px 2px 0 var(--abu);
+    border: 2px solid black;
 }
 
 .about-poto1 {
@@ -223,14 +232,14 @@ h2 {
 }
 
 .aside-btn button {
-    padding: .5rem 3rem;
+    padding: 10px 25px;
     border-radius: 25px;
     box-shadow: 3px 2px 0 var(--abu);
-    border: 3px solid #000;
+    border: 2px solid #000;
 }
 
 .aside-btn button a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* footer */
